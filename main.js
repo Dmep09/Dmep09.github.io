@@ -6,8 +6,9 @@ let typewriter = new Typewriter(app, {
 });
  
 typewriter
+  
   .pauseFor(2500)
-  .typeString('Desarrolladora de sitios web.')
+  .typeString('<span style="color: #7ae3cd;"> Estudiante de Ingenieria en Tecnologias de la Informacion y Comunicaciones.</span>')
   .pauseFor(200)
   .deleteChars(10)
   .start();
